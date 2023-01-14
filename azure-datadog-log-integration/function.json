@@ -58,7 +58,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "inhostrprddatadogg01",
+    "storageAccountName": "inhoprddatadogg01",
     "connectionStringKey": "[concat('Datadog-',parameters('eventhubNamespace'),'-AccessKey')]",
     "authRule": "[resourceId('Microsoft.EventHub/namespaces/authorizationRules', parameters('eventhubNamespace'),'RootManageSharedAccessKey')]"
   },
